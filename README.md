@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Prisha38/leetcode-solutions/tree/master/0001-two-sum) |
+| [1313-decompress-run-length-encoded-list](https://github.com/Prisha38/leetcode-solutions/tree/master/1313-decompress-run-length-encoded-list) |
 | [1470-shuffle-the-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
 ## Prefix Sum
