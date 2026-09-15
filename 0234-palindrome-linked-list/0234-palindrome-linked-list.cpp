@@ -23,29 +23,29 @@ public:
         }
 
         // Reverse second half
-        ListNode* temp = NULL;
+        ListNode* prev = NULL;
         ListNode* curr = slow;
 
         while (curr != NULL) {
             ListNode* next = curr->next;
 
-            curr->next = temp;
+            curr->next = prev;
 
-            temp = curr;
+            prev = curr;
             curr = next;
         }
 
         // Compare both halves
         ListNode* structnode = head;
 
-        while (temp != NULL) {
+        while (prev != NULL) {
 
-            if (structnode->val != temp->val) {
+            if (structnode->val != prev->val) {
                 return false;
             }
 
             structnode = structnode->next;
-            temp = temp->next;
+            prev = prev->next;
         }
 
         return true;
