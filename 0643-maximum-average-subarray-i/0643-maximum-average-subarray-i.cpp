@@ -14,14 +14,13 @@ public:
         int maxSum = sum;
 
         // Slide the window
-        int j=0;
         for (int i = k; i < nums.size(); i++) {
 
-            sum = sum - nums[j] + nums[i];
+            sum = sum - nums[i-k] + nums[i];
 
             maxSum = max(maxSum, sum);
 
-            j++;
+
         }
 
         return (double)maxSum / k;
