@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0622-design-circular-queue](https://github.com/Prisha38/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0643-maximum-average-subarray-i](https://github.com/Prisha38/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0806-number-of-lines-to-write-string](https://github.com/Prisha38/leetcode-solutions/tree/master/0806-number-of-lines-to-write-string) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Prisha38/leetcode-solutions/tree/master/1232-check-if-it-is-a-straight-line) |
@@ -130,4 +131,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Prisha38/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
