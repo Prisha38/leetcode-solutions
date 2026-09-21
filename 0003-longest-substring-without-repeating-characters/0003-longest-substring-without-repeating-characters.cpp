@@ -4,20 +4,23 @@ public:
         unordered_map<char, int> mp;
 
         int left = 0;
-        int maxLen = 0;
+        int maxCount = 0;
 
         for (int right = 0; right < s.length(); right++) {
 
+            // Add the new character
             mp[s[right]]++;
 
+            // Remove characters until duplicate is gone
             while (mp[s[right]] > 1) {
                 mp[s[left]]--;
                 left++;
             }
 
-            maxLen = max(maxLen, right - left + 1);
+            // Find current window length
+            maxCount = max(maxCount, right - left + 1);
         }
 
-        return maxLen;
+        return maxCount;
     }
 };
