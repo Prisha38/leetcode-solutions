@@ -2,23 +2,21 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         unordered_map<char, int> mp;
-
-        int left = 0;
+        int count = 0;
         int maxCount = 0;
+        int start = 0;
 
-        for (int right = 0; right < s.length(); right++) {
+        for (int i = 0; i < s.length(); i++) {
 
-            // Add the new character
-            mp[s[right]]++;
+            mp[s[i]]++;
 
-            // Remove characters until duplicate is gone
-            while (mp[s[right]] > 1) {
-                mp[s[left]]--;
-                left++;
+            while (mp[s[i]] > 1) {
+                mp[s[start]]--;
+                start++;
             }
 
-            // Find current window length
-            maxCount = max(maxCount, right - left + 1);
+            count = i - start + 1;
+            maxCount = max(maxCount, count);
         }
 
         return maxCount;
