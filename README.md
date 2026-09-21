@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Prisha38/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0806-number-of-lines-to-write-string](https://github.com/Prisha38/leetcode-solutions/tree/master/0806-number-of-lines-to-write-string) |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Prisha38/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -135,4 +136,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Prisha38/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Prisha38/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
