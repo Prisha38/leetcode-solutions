@@ -2,15 +2,15 @@
  
 /* Write your T-SQL query statement below */
 
-SELECT S.name 
-FROM SalesPerson S
-WHERE NOT EXISTS (
-    SELECT 1
-    FROM Orders O
-    JOIN Company C
-        ON O.com_id = C.com_id
-    WHERE O.sales_id = S.sales_id
-      AND C.name = 'RED'
-);
 
+
+
+select s.name
+from SalesPerson s
+where s.name not in
+    (select s.name
+    from SalesPerson s
+        left join Orders o on s.sales_id = o.sales_id
+        left join Company c on o.com_id = c.com_id
+    where c.name = 'Red')
    
