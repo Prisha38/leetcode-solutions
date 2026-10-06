@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1313-decompress-run-length-encoded-list](https://github.com/Prisha38/leetcode-solutions/tree/master/1313-decompress-run-length-encoded-list) |
 | [1470-shuffle-the-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
+| [1539-kth-missing-positive-number](https://github.com/Prisha38/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 | [2678-number-of-senior-citizens](https://github.com/Prisha38/leetcode-solutions/tree/master/2678-number-of-senior-citizens) |
 ## Prefix Sum
 |  |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/Prisha38/leetcode-solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
+| [1539-kth-missing-positive-number](https://github.com/Prisha38/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 ## Binary Lifting
 |  |
 | ------- |
