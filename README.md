@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1313-decompress-run-length-encoded-list](https://github.com/Prisha38/leetcode-solutions/tree/master/1313-decompress-run-length-encoded-list) |
 | [1470-shuffle-the-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Prisha38/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
+| [2678-number-of-senior-citizens](https://github.com/Prisha38/leetcode-solutions/tree/master/2678-number-of-senior-citizens) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0806-number-of-lines-to-write-string](https://github.com/Prisha38/leetcode-solutions/tree/master/0806-number-of-lines-to-write-string) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Prisha38/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Prisha38/leetcode-solutions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
+| [2678-number-of-senior-citizens](https://github.com/Prisha38/leetcode-solutions/tree/master/2678-number-of-senior-citizens) |
 ## Bracket Sequences
 |  |
 | ------- |
