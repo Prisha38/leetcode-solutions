@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0400-nth-digit](https://github.com/Prisha38/leetcode-solutions/tree/master/0400-nth-digit) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Prisha38/leetcode-solutions/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Prisha38/leetcode-solutions/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## String
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Prisha38/leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0400-nth-digit](https://github.com/Prisha38/leetcode-solutions/tree/master/0400-nth-digit) |
 | [0450-delete-node-in-a-bst](https://github.com/Prisha38/leetcode-solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
