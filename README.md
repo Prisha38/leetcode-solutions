@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Prisha38/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0061-rotate-list](https://github.com/Prisha38/leetcode-solutions/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Prisha38/leetcode-solutions/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Prisha38/leetcode-solutions/tree/master/0141-linked-list-cycle) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Prisha38/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Prisha38/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Prisha38/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0709-to-lower-case](https://github.com/Prisha38/leetcode-solutions/tree/master/0709-to-lower-case) |
 | [0806-number-of-lines-to-write-string](https://github.com/Prisha38/leetcode-solutions/tree/master/0806-number-of-lines-to-write-string) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Prisha38/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Prisha38/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
@@ -269,4 +272,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Prisha38/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Prisha38/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
