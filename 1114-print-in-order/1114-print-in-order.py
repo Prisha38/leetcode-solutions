@@ -1,18 +1,18 @@
-from threading import Event
-class Foo: 
+from threading import Barrier
+class Foo:
     def __init__(self):
-        self.e1 = Event()
-        self.e2 = Event()
+        self.b1 = Barrier(2)
+        self.b2 = Barrier(2)
 
     def first(self, printFirst: 'Callable[[], None]') -> None:
         printFirst()
-        self.e1.set()
+        self.b1.wait()
 
     def second(self, printSecond: 'Callable[[], None]') -> None:
-        self.e1.wait()
+        self.b1.wait()
         printSecond()
-        self.e2.set()
+        self.b2.wait()
 
     def third(self, printThird: 'Callable[[], None]') -> None:
-        self.e2.wait()
-        printThird()   
+        self.b2.wait()
+        printThird()
