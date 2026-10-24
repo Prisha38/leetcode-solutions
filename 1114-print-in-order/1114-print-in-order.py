@@ -1,26 +1,18 @@
-from threading import Condition
-class Foo:
+from threading import Event
+class Foo: 
     def __init__(self):
-        self.c = Condition()
-        self.one = self.two = False
-
+        self.e1 = Event()
+        self.e2 = Event()
 
     def first(self, printFirst: 'Callable[[], None]') -> None:
-        with self.c: 
-            printFirst()
-            self.one = True 
-            self.c.notify_all()
-
+        printFirst()
+        self.e1.set()
 
     def second(self, printSecond: 'Callable[[], None]') -> None:
-        with self.c:
-            self.c.wait_for(lambda: self.one)
-            printSecond()
-            self.two = True
-            self.c.notify_all()
-
+        self.e1.wait()
+        printSecond()
+        self.e2.set()
 
     def third(self, printThird: 'Callable[[], None]') -> None:
-        with self.c:
-            self.c.wait_for(lambda: self.two)
-            printThird()    
+        self.e2.wait()
+        printThird()   
