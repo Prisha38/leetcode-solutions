@@ -1,20 +1,26 @@
-from threading import Semaphore
+from threading import Condition
 class Foo:
     def __init__(self):
-        self.s1 = Semaphore(1)
-        self.s2 = Semaphore(1)
-        self.s1.acquire()
-        self.s2.acquire()
+        self.c = Condition()
+        self.one = self.two = False
+
 
     def first(self, printFirst: 'Callable[[], None]') -> None:
-        printFirst()
-        self.s1.release()
+        with self.c: 
+            printFirst()
+            self.one = True 
+            self.c.notify_all()
+
 
     def second(self, printSecond: 'Callable[[], None]') -> None:
-        with self.s1:
+        with self.c:
+            self.c.wait_for(lambda: self.one)
             printSecond()
-            self.s2.release()
+            self.two = True
+            self.c.notify_all()
+
 
     def third(self, printThird: 'Callable[[], None]') -> None:
-        with self.s2:
-            printThird()
+        with self.c:
+            self.c.wait_for(lambda: self.two)
+            printThird()    
