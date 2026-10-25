@@ -1,22 +1,23 @@
-from threading import Condition
-class FooBar:
+from threading import Condition, Barrier
+class FooBar: 
     def __init__(self, n):
         self.n = n
-        self.c1 = Condition()
-        self.f = True
+        self.br = Barrier(2)
+        self.c = Condition()
+        self.f = False
 
     def foo(self, printFoo: 'Callable[[], None]') -> None:
         for i in range(self.n):
-            with self.c1:
-                self.c1.wait_for(lambda: self.f)
+            with self.c:
                 printFoo()
-                self.f = False
-                self.c1.notify(1)
+                self.f = True
+                self.c.notify_all()
+            self.br.wait()
 
     def bar(self, printBar: 'Callable[[], None]') -> None:
         for i in range(self.n):
-            with self.c1:
-                self.c1.wait_for(lambda: not self.f)
-                printBar()
-                self.f = True
-                self.c1.notify(1)
+            with self.c:
+                self.c.wait_for(lambda: self.f)
+                printBar()            
+                self.f = False
+            self.br.wait()
